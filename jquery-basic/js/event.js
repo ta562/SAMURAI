@@ -1,7 +1,5 @@
 $(function(){
-    $('div').on({
-        'click':()=>{
-            $('div').css('background-color','red');
+    $('div').on({ 'click':()=>{ $('div').css('background-color','red');
             $('div').text('click');
         },
         'dblclick':()=>{
