@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>ユーザー名</h1>
+        <input type="text" id="userNameInput">
+        <button id="save-btn">保存</button>
+        <script>
+            const button=document.getElementById('save-btn');
+            button.addEventListener('click',()=>{
+                const userName=document.getElementById('userNameInput').value
+                sessionStorage.setItem('userName',userName)
+                location.href='session_get.html';
+            })
+        </script>
+    </body>
+</html>

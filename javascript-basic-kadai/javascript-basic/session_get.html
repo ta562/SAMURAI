@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>ユーザー名を表示します</h1>
+        <div id="output"></div>
+        <script>
+            const userName =sessionStorage.getItem('userName')
+            document.getElementById('output').textContent='ユーザー名'+userName
+        </script>
+    </body>
+</html>
