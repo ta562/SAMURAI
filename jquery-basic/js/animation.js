@@ -1,0 +1,19 @@
+$(function(){
+    $('#fadeOut').on('click',function(){
+        $('.box').fadeOut(3000,function(){
+            alert('fadeOut')
+    });
+    })
+    $('#fadeIn').on('click',function(){
+        $('.box').fadeIn();
+    })
+    $('#slideUp').on('click',function(){
+        $('.box').slideUp()
+    })
+    $('#slideDown').on('click', function(){
+        $('.box').slideDown();
+    })
+    $('#slideToggle').on('click',function(){
+        $('.box').slideToggle()
+    })
+})
