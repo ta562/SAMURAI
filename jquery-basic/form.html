@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <form action="">
+            <div>
+                <span>名前：</span>
+                <input type="text" name="username">
+
+            </div>
+            <div>
+                <span>性別：</span>
+                <input type="radio" name="gender" value="male">男
+                <input type="radio" name="gender" value="female">女
+                <input type="radio" name="gender" value="other">その他
+            </div>
+            <div>
+                <span>血液型：</span>
+                <select name="blood" id="">
+                    <option value="a">A型</option>
+                    <option value="b">B型</option>0
+                    <option value="o">O型</option>
+00                    <option value="ab">AB型</option>
+                    <option value="unknown">不明</option>
+                </select>
+            </div>
+            <div>
+                <span>趣味：</span>
+                <input type="checkbox" name="hobby" value="book">読書
+                <input type="checkbox" name="hobby" value="music">音楽
+                <input type="checkbox" name="hobby" value="movie">映画
+                <input type="checkbox" name="hobby" value="walk">散歩
+            </div>
+            <input type="button" id="check" value="check">
+        </form>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/form.js"></script>
+    </body>
+
+</html>
